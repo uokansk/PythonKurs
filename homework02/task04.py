@@ -4,6 +4,7 @@
 в файле file.txt в одной строке одно число.
 """
 
+
 n = int(input('Введите число: '))
 lst = []
 data = open('file.txt')
