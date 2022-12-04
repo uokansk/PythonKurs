@@ -40,7 +40,7 @@ for i in range(1, n + 1):
     fib0, fib1 = fib1, fib0 + fib1
 fib0 = 0
 fib1 = 1
-for i in range(-1, -n-1, -1):
+for i in range(-1, -n - 1, -1):
     lst.insert(0, fib1)
     fib0, fib1 = fib1, fib0 - fib1
 print(f'Числа Фибоначчи для {n}, в том числе для отрицательных индексов {lst}')
