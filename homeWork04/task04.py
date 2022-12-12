@@ -20,15 +20,16 @@ print(lst)
 s = ''
 for i in range(len(lst)):
     if k - i > 1 and lst[i] != 0:
-        s += f'{lst[i]}*x^{k - i} + '
+        s += f' {lst[i]}*x^{k - i} +'
     elif k - i == 1 and lst[i] != 0:
-        s += f'{lst[i]}*x+'
+        s += f' {lst[i]}*x +'
     elif lst[i] == 0:
         s += ''
     else:
-        s += f'{lst[i]} = 0'
+        s += f' {lst[i]}'
 
-print('s', s)
+s = s + '= 0'
+print(s)
 
 with open('file33.txt', 'w') as data:
-    data.write(s)
+    data.write(s.replace('+=', '='))
