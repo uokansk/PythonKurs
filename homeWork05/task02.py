@@ -28,12 +28,5 @@ while count < 9:
             a[row][col] = 'O'
             player = 'X_gamer'
         count += 1
-    # for i in range(len(a)):
-    #     for j in range(len(a[i])):
-    #         if a[1][1] != '*' and a[1][1] == a[1][2] == a[1][3] or a[2][1] == a[2][2] == a[2][1
-    #         ] or a[3][1] == a[3][2] == a[3][1] or a[1][1] == a[2][1] == a[3][1
-    #         ] or a[1][2] == a[2][2] == a[3][2] or a[1][3] == a[2][3] == a[3][3
-    #         ] or a[1][1] == a[2][2] == a[3][3] or a[1][3] == a[2][2] == a[3][1]:
-    #             break
-    #         print(f'победил {player}')
+
 print('игра окончена')

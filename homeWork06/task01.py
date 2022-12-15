@@ -2,22 +2,16 @@
 Напишите программу, которая принимает на вход вещественное число и
 показывает сумму его цифр.(Сделать для строки)
 """
-# n = float(input('Введите число: '))
-# count = 0
-# # while n % 1 != 0:
-# #     n *= 10
-# #     print(n)
-# while n > 0:
-#     a = n % 10
-#     n = n // 10
-#     count += a
-#     # print(a)
-# print(count)
-
+import math
 n = str(input('Введите число: ')).replace('.', '')
 # n = n.replace('.', '')
-print(n)
+# print(n)
 number = 0
-for c in n:
-    number += int(c)
-print(number)
+# for c in n:
+#     number += int(c)
+# print(number)
+def f(x):
+    return x+=x
+
+lst = [f(i) i for i in n]
+print(lst)

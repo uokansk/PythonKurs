@@ -4,22 +4,19 @@
 в файле file.txt в одной строке одно число.
 """
 
-n = int(input('Введите число: '))
-# lst = []
-data = open('file.txt')
-sumNumber = 1
-# for i in range(-n, n + 1):
-#     lst.append(i)
-f = open('f.txt', 'r')
-data = f.read() + ' '
+import math
+
+# n = int(input('Введите число: '))
+f = open('file.txt')
+data = f.read()
 f.close()
 
+# lst = [n for n in range(-n, n+1)]
 
-lst = [n for n in range(-n, n+1)]
-print(lst)
-exit()
 
 lst2 = [line for line in data]
+print(lst2)
+exit()
 for line in data:
     sumNumber *= lst[int(line)]
     print('данные из файла ', line, end='')
@@ -28,4 +25,7 @@ for line in data:
     #         sumNumber *= i
 print('\n', 'список из', n, 'элементов', lst)
 print('произведение элементов ', sumNumber)
-data.close()
+
+
+data = [x for x in range(10)]
+print(data)
