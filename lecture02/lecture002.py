@@ -1,21 +1,20 @@
-# colors = ['red', 'green', 'blue']
+# colors = ['red', ' ', 'green', ' ', 'blue']
 # data = open('file.txt', 'a')
 # data.writelines(colors)  # разделителей не будет
 # data.write('\nLine 2\n')
-# data.write('\nLine 3\n')
+# data.write('Line 3\n')
 # data.close()
-
 
 # with open('file.txt', 'a') as data:
 #     data.write('line 11111\n')
 #     data.write('line 22222\n')
 
 
-# path = 'text.txt'
-# data = open(path, 'r')
-# for line in data:
-#     print(line)
-# data.close()
+path = 'file.txt'
+data = open(path, 'r')
+for line in data:
+    print(line)
+data.close()
 
 # import hello as h
 # print(h.f(2.3))
@@ -57,6 +56,6 @@
 # a, b = 3, 4
 # print(a, b)
 
-a = (3, 4)
-print(a)
-print(a[0])
+# a = (3, 4)
+# print(a)
+# print(a[0])
