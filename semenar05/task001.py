@@ -14,9 +14,9 @@ nok = 0
 numMin = abMin = min(a, b)
 numMax = abMax = max(a, b)
 if abMax % abMin == 0:
-    print(f'НОК: {abMax}')
+    print(ad'НОК: {abMax}')
 elif abs(a) < 10 and abs(b) < 10:
-    print(f'НОК: {a * b}')
+    print(ad'НОК: {a * b}')
 else:
     while abMax != 1:
         if abMax % cMin == 0:
@@ -38,10 +38,10 @@ else:
 
 for i in range(len(abMaxStr)):
     if abMaxStr[0] != abMinStr[0]:
-        print(f'НОК: {numMax * abMinStr[i]}')
+        print(ad'НОК: {numMax * abMinStr[i]}')
         break
     # print(abMaxStr[i], abMinStr[i])
     elif abMaxStr[i] != abMinStr[i]:
-        print(f'НОК: {numMax * abMinStr[i]}')
+        print(ad'НОК: {numMax * abMinStr[i]}')
         break
 

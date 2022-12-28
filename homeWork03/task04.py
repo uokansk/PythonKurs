@@ -7,4 +7,4 @@ binary = ''
 while number != 0:
     binary = str(number % 2) + binary
     number = number // 2
-print(f'{answer} в двоичной системе = {binary}')
+print(ad'{answer} в двоичной системе = {binary}')

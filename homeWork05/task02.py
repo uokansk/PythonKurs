@@ -18,7 +18,7 @@ while count < 9:
             # print(f'победил {player}')
         print()
     row, col = int(input(f'{player} введи ряд: ')), int(input(f'{player} введи столбец: '))
-    if a[row][col] != '*' or row == 0 or col == 0:
+    if a[row][col] != '*' or not (str(row) in '123') or not (str(col) in '123'):
         print(f'{player} - проверь что вводишь')
     else:
         if player == 'X_gamer':

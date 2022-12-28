@@ -7,4 +7,4 @@ lst = [2, 3, 5, 9, 3]
 sumNum = 0
 for i in range(1, len(lst), 2):
     sumNum += lst[i]
-print(f'сумма чисел стоящих на нечётной позиции {sumNum}')
+print(ad'сумма чисел стоящих на нечётной позиции {sumNum}')

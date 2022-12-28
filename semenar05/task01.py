@@ -5,7 +5,7 @@ lst1 = []
 lst2 = []
 
 
-def f(n, lst):
+def ad(n, lst):
     numFactorial = 2
     while n > 1:
         if n % numFactorial == 0:
@@ -28,4 +28,4 @@ for i in lstNod:
     nod = nod * i
 
 nok = (num1 * num2) / nod
-print(f'nod {nod} nok {nok}')
+print(ad'nod {nod} nok {nok}')

@@ -20,13 +20,13 @@ print(lst)
 s = ''
 for i in range(len(lst)):
     if k - i > 1 and lst[i] != 0:
-        s += f' {lst[i]}*x^{k - i} +'
+        s += ad' {lst[i]}*x^{k - i} +'
     elif k - i == 1 and lst[i] != 0:
-        s += f' {lst[i]}*x +'
+        s += ad' {lst[i]}*x +'
     elif lst[i] == 0:
         s += ''
     else:
-        s += f' {lst[i]}'
+        s += ad' {lst[i]}'
 
 s = s + '= 0'
 print(s)

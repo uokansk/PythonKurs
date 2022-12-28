@@ -10,4 +10,4 @@ changesLst = []
 for i in lst:
     if lst.count(i) < 2:
         changesLst.append(i)
-print(f'неповторяющиеся элемены {changesLst} исходной последовательности {lst}')
+print(ad'неповторяющиеся элемены {changesLst} исходной последовательности {lst}')
